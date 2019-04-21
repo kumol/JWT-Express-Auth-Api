@@ -1,0 +1,23 @@
+<div >
+    <h2>User Registration form </h2>
+    <form class="form form-group" method="post" action="/users/register" role="form" class="form-group">
+        <div class="form-col">
+            <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Name" name="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+            </div>
+            <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="UserName" name="username" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="password" class="form-control" placeholder="password" name="password" data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="email"/>
+            </div>
+            <div class="form-group col-md-6">
+                <button class="btn btn-success" type="submit">SignUp</button>
+                
+            </div>
+        </div>
+    </form>  
+</div>

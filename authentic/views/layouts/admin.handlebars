@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Arambzar</title>
+    <link href="/css/admin.css" rel="stylesheet">
+
+</head>
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <button class="navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </header>
+
+    <div class="app-body">
+        <div class="sidebar bg-color-2">
+            <nav class="sidebar-nav">
+                <ul class="nav font-weight-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="icon-speedometer"></i> Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/admin/dashbord/category">
+                            <i class="icon-puzzle"></i> Category</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashbord/subcategory">
+                            <i class="icon-puzzle"></i> Subcategory</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/admin/dashbord/products">
+                            <i class="icon-note"></i>Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashbord/users">
+                            <i class="icon-note"></i>User</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/dashbord/orders">
+                            <i class="icon-note"></i>Orders</a>
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link" href="/admin/dashbord/logout">
+                            <i class="icon-star"></i>Logout</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+            {{{body}}}
+        </main>
+
+    </div>
+
+    <footer class="app-footer">
+        <span>
+            <a href="http://coreui.io">arambazar</a> © 2017 creativeLabs.</span>
+        <span class="ml-auto">Powered by
+            <a href="http://coreui.io">arambazar</a>
+        </span>
+    </footer>
+
+    <!-- Bootstrap and necessary plugins -->
+    {{!--
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/pace-progress/pace.min.js"></script> --}}
+
+    <!-- CoreUI main scripts -->
+
+    {{!--
+    <script src="/admin-assets/js/app.js"></script> --}}
+
+    <!-- Plugins and scripts required by this views -->
+
+    <!-- Custom scripts required by this view -->
+    {{!--
+    <script src="/admin-assets/js/views/main.js"></script> --}}
+    <script src="/js/admin.js"></script>
+
+</body>
+
+</html>
